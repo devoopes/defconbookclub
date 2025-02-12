@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>DEF CON Book Club</title>
+  <description>The Offical DEF CON Book Club</description>
+  <link>https://defconbookclub.com/</link>
+  <lastBuildDate>Tues, 11 Feb 2025 00:01:00 +0000 </lastBuildDate>
+  <pubDate>Tues, 11 Feb 2025 00:01:00 +0000 </pubDate>
+  <item>
+    <title>January's DEF CON Book Announcement</title>
+    <description>The Moon Is a Harsh Mistress by Robert Heinlein</description>
+    <link>https://www.goodreads.com/book/show/16690.The_Moon_Is_a_Harsh_Mistress</link>
+    <guid>https://discord.com/channels/1138735578469376111/1306421727848431697</guid>
+    <pubDate>Wed, 01 Jan 2025 00:01:00 +0000 </pubDate>
+  </item>
+  <item>
+    <title>March's DEF CON Book Announement</title>
+    <description>Some Desperate Glory, Emily Tesh</description>
+    <link>https://www.goodreads.com/book/show/58388343-some-desperate-glory</link>
+    <guid>https://discord.com/channels/1138735578469376111/1339060448980631663</guid>
+    <pubDate>Tues, 12 Feb 2025 00:01:00 +0000 </pubDate>
+  </item>
+</channel>
+</rss>
