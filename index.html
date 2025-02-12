@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEF CON Book Club</title>
     <style>
         * {
@@ -14,16 +13,30 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            white-space: nowrap;
             height: 100vh;
             margin: 0;
-            background-color: #131313;
+            background-color: #111111;
             font-family: 'Courier New', Courier, monospace;
         }
         table {
             border-collapse: collapse;
-            width: 60%;
-            max-width: 800px;
-            background-color: #454545;
+            background-color: #171717;
+            box-shadow: #222222 5px -5px,
+                        #212121 10px -10px,
+                        #202020 15px -15px,
+                        #1f1f1f 20px -20px, 
+                        #1e1e1e 25px -25px,
+                        #1d1d1d 30px -30px, 
+                        #1c1c1c 35px -35px,
+                        #1b1b1b 40px -40px, 
+                        #1a1a1a 45px -45px,
+                        #191919 50px -50px,
+                        #181818 55px -55px,
+                        #171717 60px -60px;
+        }
+        tr {
+            box-shadow: inset #333333 60px -60px;
         }
         td {
             border: 10px solid #222222;
@@ -34,20 +47,31 @@
             font-family: Book Ends;
             color: #892BE1;
         }
+
+        /* 3d party font */
+        @font-face {
+            font-family: Book Ends;
+            src: url('Book+Ends.otf');
+            /* https://www.dafont.com/book-ends.font */
+        } 
+
+        p {
+            color: #FFAC11;
+        }
+
+        /* Link Font color */
         a {
             color: #DB1675;
             text-decoration: none;
             position: relative;
             cursor: pointer;
         }
-        @font-face { font-family: Book Ends; src: url('Book+Ends.otf'); } 
+
         /* Tooltip container */
         .tooltip {
         position: relative;
         display: inline-block;
-        border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
         }
-
         /* Tooltip text */
         .tooltip .tooltiptext {
         visibility: hidden;
@@ -57,18 +81,18 @@
         text-align: center;
         padding: 5px 0;
         border-radius: 6px;
-        
-        /* Position the tooltip text - see examples below! */
+        /* Position the tooltip text */
         position: absolute;
         z-index: 1;
         font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
         }
-
         /* Show the tooltip text when you mouse over the tooltip container */
         .tooltip:hover .tooltiptext {
         visibility: visible;
         }
+
+        /* Bottom Text */
         div.absolute {
             position: absolute;
             bottom: 20px;
@@ -84,21 +108,20 @@
             font-family: 'Courier New', Courier, monospace;
         }
     </style>
-    <!-- font: https://www.dafont.com/book-ends.font -->
 </head>
 <body>
     <table>
         <tr>
-            <td><font color="FFAC11">(DEF+CON Book Club)</font></td>
+            <td><p>__(DEF+CON Book Club)_<img src="spaceman.svg" width="100" height="100"></p></td>
         </tr>
         <tr>
-            <td><div class="tooltip">(Now Reading on)
+            <td><div class="tooltip">__(Now Reading on)
                 <span class="tooltiptext">Some Desperate Glory, Novel by Emily Tesh</span>
-            </div><a href="discord/index.html"><img src="discord-icon.svg" width="100" height="100"></a>(&)*
+            </div><a href="discord/index.html"><img src="discord.svg" width="100" height="100"></a>(&)*__
             </td>
         </tr>
         <tr>
-            <td><a href="reading.log">[Previously Read]</a></td>
+            <td><a href="reading.log">[Previously Read]_</a><img src="defcon.svg" width="100" height="100"></td>
         </tr>
     </table>
     <div class="absolute">
